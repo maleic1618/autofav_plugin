@@ -10,7 +10,7 @@ from plugin import *
 class auto_favorite(Plugin):
     def __init__(self,mainwindow):
         super(auto_favorite,self).__init__(mainwindow)
-        self.screen_name=u'bagirom'
+        self.screen_name=u'tara_nai'
 
     def on_status(self, status):
         if status.has_key('event') == False:
